@@ -1,0 +1,84 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/hero.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 100%;
+  color: var(--color-background);
+  display: flex;
+  justify-content: space-between;
+  padding: 83px 32px 0;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-role {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.hero-name {
+  width: 268px;
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 13px;
+}
+
+.hero-crn {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.hero-right {
+  width: 234px;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.hero-right-p {
+  width: 224px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.hero-highlight {
+  width: 224px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+.hero-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button {
+  background-color: #684D2C;
+  color: #FFF7EA;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 16px 30px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+
+.hero-button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-weight: 500;
+}

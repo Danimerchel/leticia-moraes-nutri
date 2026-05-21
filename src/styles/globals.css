@@ -1,0 +1,28 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Evita repetir fonte em todo lugar */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Remover decoração padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Botões herdarem fonte */
+button {
+  font-family: inherit;
+}
