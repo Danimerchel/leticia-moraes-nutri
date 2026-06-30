@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
-/* Evita repetir fonte em todo lugar */
 body {
   font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Remover decoração padrão de links */
@@ -18,7 +22,7 @@ a {
 
 /* Imagens responsivas */
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
 }
 

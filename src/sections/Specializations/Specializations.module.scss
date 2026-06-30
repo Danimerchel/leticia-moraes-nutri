@@ -1,0 +1,80 @@
+.specializationsSection {
+  background: var(--color-background);
+  padding: 60px 38px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.card {
+  padding: 0 70px 0 0;
+  text-align: center;
+
+  &:not(:last-child) {
+    border-right: 1px solid rgba(158, 125, 71, 0.35);
+  }
+}
+
+.logo {
+  width: 260px;
+  height: 80px;
+  margin: 0 auto 14px;
+  object-fit: contain;
+}
+
+.logoDivider {
+  display: block;
+  width: 72px;
+  height: 1px;
+  margin: 0 auto 26px;
+  background: var(--color-secondary);
+}
+
+.institution {
+  color: var(--color-secondary);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--color-primary);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #2f2b27;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    padding: 12px 0;
+    border-right: none;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
